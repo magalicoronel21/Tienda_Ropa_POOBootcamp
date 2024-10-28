@@ -1,8 +1,13 @@
-# Sistema de Compra de Ropa
+**Sistema de Compra de Ropa**
+
 Este proyecto es un sistema de compras de ropa implementado en Python utilizando Programación Orientada a Objetos (POO). El sistema permite al usuario seleccionar diferentes tipos de ropa, agregar productos a un carrito y ver un resumen de su compra.
-## Estructura del Proyecto
+
+**Estructura del Proyecto**
+
 El proyecto incluye las siguientes clases:
-### Clases Implementadas
+
+**Clases Implementadas**
+
 1. **Producto**
    - Clase base que representa un producto general.
    - **Atributos**:
@@ -32,20 +37,15 @@ El proyecto incluye las siguientes clases:
      - `mostrar_productos()`: Muestra la lista de productos disponibles.
      - `agregar_al_carrito(indice)`: Agrega un producto al carrito basado en su índice en la lista de productos.
      - `mostrar_resumen()`: Muestra un resumen de la compra y el total a pagar.
-## Funcionamiento
+**Funcionamiento**
 1. **Agregar Productos**: Se crean instancias de `Camisa` y `Pantalon` y se agregan a la tienda.
 2. **Mostrar Productos**: El programa muestra todos los productos disponibles para que el usuario seleccione.
 3. **Interacción del Usuario**: El usuario puede seleccionar un producto escribiendo su número o salir escribiendo 'salir'.
 4. **Resumen de Compra**: Al finalizar la selección, se muestra un resumen de los productos en el carrito y el total a pagar.
-## Requisitos
+**Requisitos**
 - Python 3.x
-## Ejecución
+**Ejecución**
 Para ejecutar el programa, sigue estos pasos:
 1. Clona el repositorio o descarga los archivos.
 2. Abre la terminal o consola de comandos.
-3. Navega hasta el directorio donde se encuentra el archivo `sistema_compra.py`.
-4. Ejecuta el siguiente comando:
-
-   ```bash
-   python sistema_compra.py
 
